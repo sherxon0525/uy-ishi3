@@ -1,0 +1,26 @@
+body{
+    background-color: #ff2d38;
+}
+
+.headding{
+    text-align: center;
+    color: white;
+}
+
+.list{
+    margin: 100px auto;
+    height: 250px;
+    width: 430px;
+    background-color: white;
+    display: flex;
+    list-style-type: none;
+    text-align: center;
+}
+
+.paragraph{
+    color: tomato;
+}
+
+.list-item + .list-item{
+    margin-left: 20px;
+}
